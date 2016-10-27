@@ -26,8 +26,8 @@ from it and doing the provided excercises right there in repository.
 
 ## Table of Contents
 1. Prequisities
-  * [Setting up Tools](https://github.com/hanshoi/python_web_course/material/prequisities/getting_started.md)
-  * [Learning Linux](https://github.com/hanshoi/python_web_course/material/prequisities/linux.md)
+  * [Setting up Tools](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/getting_started.md)
+  * [Learning Linux](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/linux.md)
 
 
 ## Recommended Reading
