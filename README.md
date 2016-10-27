@@ -18,11 +18,12 @@ This guide is designed to be a general guide for self study and as course materi
 This repository has been designed so that you should fork this repo into your own account and then start reading course material
 from it and doing the provided excercises right there in repository.
 
+```
 1. fork this repository
-1. clone it on your computer
-1. read guides
-1. make excercises
-
+2. clone it on your computer
+3. read guides
+4. make excercises
+```
 
 ## Table of Contents
 1. Prequisities
