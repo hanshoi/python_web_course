@@ -289,6 +289,18 @@ Gives the size of file
 
 > Different options gives different possibilities for different data for the file.
 
+### Sudo
+On Linux you can use program called sudo to run commands as different user. This is mainly used
+to run commands as root user to do actions that you wouldn't be normally allowed to do.
+
+```bash
+~$: sudo touch /tmpfile.txt
+```
+
+> You are not normally allowed to write files directly into computers root folder but with
+> sudo command you can do it, if you have root password that is. Writing files into root
+> folder is not however advisable and should almost never be done or necessary.
+
 ## Piping
 In Linux you can use several commands in conjunction with each other. This is possible as 
 they operate on philosophy of sreams. This means that when you are typing ```ls``` you are
@@ -333,6 +345,21 @@ This way you don't need to execute them all again and again. Check out tutorial 
 more scripting information.
 
 [Ryans Bash Scripting Tutorial](http://ryanstutorials.net/bash-scripting-tutorial/)
+
+
+## Installing 
+Installing applications are done through package managers. These programs fetch information
+from managed package repositories and then use that for installing them securely on your system.
+This means for installing packages running command **apt-get install** is enough.
+
+Basic command combinations for Debian based distros are following.
+
+| Command | Description |
+| ------- | ----------- |
+| apt-get install <somepackage> | install a package, just change <somepackage> with your package and you are set |
+| apt-cache search <something> | Searches for package called something from repository |
+| apt-get update | update repository list, if there was updates for packages or such |
+| apt-get upgrade | update all packages that are in need of upgrade, remember to run *update* first |
 
 
 ## Other Tutorials
