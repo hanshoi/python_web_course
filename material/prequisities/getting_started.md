@@ -22,7 +22,7 @@ start working with actual web servers through SSH.
 There is [plenty of Linux distros](http://distrowatch.com/) and you may choose any one
 of them. However for to aid a newbie I will recommend to use [Linux Mint](https://www.linuxmint.com/).
 
-Note: _OSX is UNIX based system as well._
+>Note: OSX is UNIX based system as well.
 
 ## Text Editor
 You need something to write code with. A basic text editor is just fine for this purpose. Yes,
