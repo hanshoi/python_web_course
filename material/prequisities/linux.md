@@ -411,7 +411,7 @@ Basic command combinations for Debian based distros are following.
 1. Install following programs
   * aptitude
   * terminator
-  * buildessentials
+  * buildessential
   * sl
   * gedit
 1. Run program ```sl```
