@@ -22,7 +22,7 @@ start working with actual web servers through SSH.
 There is [plenty of Linux distros](http://distrowatch.com/) and you may choose any one
 of them. However for to aid a newbie I will recommend to use [Linux Mint](https://www.linuxmint.com/).
 
->Note: OSX is UNIX based system as well.
+>OSX is UNIX based system as well.
 
 ## Text Editor
 You need something to write code with. A basic text editor is just fine for this purpose. Yes,
@@ -70,3 +70,7 @@ and when talking about python we do refer to python2.
 ## Browser
 Something to browse web for guides (like this one) and to checkout your own newly created web pages. This can be almost any
 browser. However Firefox and Chrome tend to have best developer tools. From these two I myself use Chrome for development.
+
+
+## Next Chapter
+[Learning Linux](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/linux.md)
