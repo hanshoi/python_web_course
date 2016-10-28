@@ -229,6 +229,110 @@ Change permissions of file or folder.
 > of them is two of them allowed. This means that 1 is execute only, 2 write only, 3 execute and write,
 > 4 read only and so on..
 
+#### chown 
+Change owner for file or folder
+
+```bash
+~$: chown root:root tmpfile.txt
+```
+
+> Option <user>:<group> means just that, whos file it is an into whos group does it belong to.
+
+### Grep and Regular Expression
+
+#### grep
+Find pattern in file or text stream.
+
+```bash
+~$: grep text myfile.txt 
+I am some text
+```
+
+> Notice that by default grep returns the line your pattern matches to.
+
+### Filtering
+
+#### head
+Show certain number of lines at begining of file.
+
+```bash
+~$: head -1 myfile.txt
+I am some text
+```
+
+#### tail
+Show certain number of lines from end of file.
+
+```bash
+~$: tail -2 myfile.txt
+in this file.
+
+```
+
+### Misc
+
+#### echo
+Print given text
+
+```bash
+~$: echo "Hello world"
+Hello world
+```
+
+#### wc
+Gives the size of file
+
+```bash
+~$: wc myfile.txt
+7
+```
+
+> Different options gives different possibilities for different data for the file.
+
+## Piping
+In Linux you can use several commands in conjunction with each other. This is possible as 
+they operate on philosophy of sreams. This means that when you are typing ```ls``` you are
+actuall getting a stream of results not a bulk of results.
+
+> If you have difficulty grasping what this means then imagine a man throwing apples at you 
+> one after another. Now as he does that, it gives you options, you could grap them or 
+> hit them with a baseball bat. This however would not be possible if he would haul the
+> whole basket at you at once.
+
+Piping in Linux is achieved with sign **|**, this takes results from previous command and pipes
+them to second command, from left to right.
+
+```bash
+~$: ls | grep README
+README.md
+```
+
+## Redirection
+You can redirect output to some other places as well and not just to your console.
+This is achieved with signs **>** and **>>**. 
+
+**>** redirects output into new file and **>>** appends output into existing file.
+
+```bash
+~$: ls > myoutput.txt
+~$: cat myoutput.txt
+myoutput.txt
+material
+README.md
+~$: wc -l myoutput.txt >> myoutput.txt
+~$: cat myoutput.txt
+myoutput.txt
+material
+README.md
+3 myoutput.txt
+```
+
+## Scripting
+Fine thing about Linux is that you can combine all of this commands into a single script.
+This way you don't need to execute them all again and again. Check out tutorial below for
+more scripting information.
+
+[Ryans Bash Scripting Tutorial](http://ryanstutorials.net/bash-scripting-tutorial/)
 
 
 ## Other Tutorials
