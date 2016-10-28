@@ -22,8 +22,39 @@ following tutorial made by Ryan Chadwick, buy him a beer if you ever meet him.
 Stuff that you will need to learn to effectively use linux. Yes, everything here is terminal 
 based so prepare for some character based hacking.
 
+When you open your shell you should see something like this at first.
+
+```bash
+~$:
+```
+
+This means that you are in your home folder and ready to start hacking. **~** there means 
+directory path, in this case it is your current users home folder */home/myuser/*. Users
+home folder is generally marked with sign *~* and it can be used in navigation as well, like 
+```cd ~```. *$:* is general separators that shows the current line you are writing on.
+
+### Commands
+Using linux is based on running several separate programs that do one thing (but do it well).
+This means that the whole directory navigation consists of series of commands that are small
+programs by themselves. This means that while you are in your terminal you will insert commands
+like *ls*, *cd*, *pwd* and others to do what you want.
+
+Invoking a command is as simple as writing it's name and hitting enter. Try this now, with command
+*pwd*
+
+> If you are unsure what a command does you can ask it what it does with *--help* option. Options 
+> are additional arguments that you give for commands, like this ```pwd --help```. Options 
+> are generally separated from other arguments with prefix *-* or *--*. *-* being used for shorthands
+> and *--* used for the long name, like help can in many cases be written as *-?* as well.
+
+> Other useful option that is implemented in almost every program ins *--version* that will tell
+> what version of program you are using.
+
+
 ### Basic Navigation
 You can't much do anything if you don't know where you are, where you are going and how to get 
 there. Therefore first thing is to learn basic navigation in terminal.
 
+#### pwd
+Tells where you are currently in.
 
