@@ -190,6 +190,47 @@ Remove files.
 > Use with option **-r** to remove folders as well.
 
 
+### Editing Text
+Editing text in shell can be used either with commands ```nano``` or ```vi```. 
+Of these two I recommend nano as it is the simpler to master.
+
+### View files
+
+#### cat
+Prints the whole file content into terminal.
+
+```bash
+~$: cat myfile.txt
+I am some text
+in this file.
+
+```
+
+> If you have a massive file that you need to browse and printing it in your terminal
+> is not feasible, then please use ```less```, it is made for browsing huge files.
+
+### Permissions
+
+> You can check permissions and ownership with ```ls -l```
+
+#### chmod
+Change permissions of file or folder.
+
+```bash
+~$: chmod 777 tmpfile.txt
+```
+
+> There is generally three levels of users user, group, all and three levels of permissions
+> read, write, execute. This are represented with the three numbers in *chmod* command. First
+> digit being user, second group and final digit is permissions for all.
+
+> Permission level is number from 0-7, 0 being nothing and 7 being everything. This comes
+> from binary system and every permissions (r, w, x) is one binary number and any combination
+> of them is two of them allowed. This means that 1 is execute only, 2 write only, 3 execute and write,
+> 4 read only and so on..
+
+
+
 ## Other Tutorials
 * [Linux Survivals Tutorial](http://linuxsurvival.com/linux-tutorial-introduction/)
 * [University of Surrey Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
