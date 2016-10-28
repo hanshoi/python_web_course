@@ -413,6 +413,7 @@ Basic command combinations for Debian based distros are following.
   * terminator
   * buildessentials
   * sl
+  * gedit
 1. Run program ```sl```
 
 
