@@ -67,11 +67,11 @@ Invoking a command is as simple as writing it's name and hitting enter. Try this
 You can't much do anything if you don't know where you are, where you are going and how to get 
 there. Therefore first thing is to learn basic navigation in terminal.
 
-#### pwd
-Tells where you are currently in, relative to absolute path.
+**pwd** Tells where you are currently in as absolute path.
 
 ```bash
 ~$: pwd
 /home/myusername/
 ```
 
+####
