@@ -45,6 +45,26 @@ or relatively. Absolute path is prefixed with */* and relative is not. This mean
 you write ```cd /tmp``` you will end up in *tmp* folder in root folder, however if you 
 write ```cd tmp``` you will end up in *tmp* folder within you current folder.
 
+Basic shortcuts:
+
+| Sign | Description |
+| ---- | ----------- |
+| /    | Root folder |
+| ~    | Home folder |
+| .    | Current folder | 
+| ..   | Parent folder |
+
+## Files
+Some basic file types are following:
+
+* basic file, ```readme.txt```
+* folder, ```home```
+* hidden file ```.hidden.txt```
+* link, ```link_to_another_file```
+
+As you notice they are quite indistinguishable from each other though they behave in different ways. 
+For checking what file is of what type ```ls -l``` is your friend.
+
 ### Commands
 Using linux is based on running several separate programs that do one thing (but do it well).
 This means that the whole directory navigation consists of series of commands that are small
@@ -67,11 +87,29 @@ Invoking a command is as simple as writing it's name and hitting enter. Try this
 You can't much do anything if you don't know where you are, where you are going and how to get 
 there. Therefore first thing is to learn basic navigation in terminal.
 
-**pwd** Tells where you are currently in as absolute path.
+##### pwd #####
+Tells where you are currently in as absolute path.
 
 ```bash
 ~$: pwd
 /home/myusername/
 ```
 
-####
+##### ls #####
+List contents of this folder.
+
+```bash
+~$: ls
+material  README.md
+```
+
+> Good to know options are **-a** that reveals hidden files, **-l** that gives files as a list
+> and shows more information about them.
+
+###### cd ######
+Navigate to folder.
+
+```bash
+~$: cd /
+/$:
+```
