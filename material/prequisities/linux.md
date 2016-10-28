@@ -63,7 +63,7 @@ Some basic file types are following:
 * link, ```link_to_another_file```
 
 As you notice they are quite indistinguishable from each other though they behave in different ways. 
-For checking what file is of what type ```ls -l``` is your friend.
+For checking what file is of what type ```file``` command is your friend.
 
 ### Commands
 Using linux is based on running several separate programs that do one thing (but do it well).
@@ -106,10 +106,90 @@ material  README.md
 > Good to know options are **-a** that reveals hidden files, **-l** that gives files as a list
 > and shows more information about them.
 
-###### cd ######
+##### cd #####
 Navigate to folder.
 
 ```bash
 ~$: cd /
 /$:
 ```
+
+> Remember shorthand **..** here. It will get you into the parent folder or as in many cases is the 
+> case to previous folder. Use it like this ```cd ..``` or chain it like ```cd ../../somefolder```.
+
+
+### File Manipulation ###
+Create, Remove, Move and Copy files and folders.
+
+#### mkdir
+Make a directory.
+
+```bash
+~$: mkdir tmp
+~$: ls 
+material  README.md  tmp
+```
+
+> Notice that this is just a shorthand for **make directory**.
+
+#### rmdir
+Remove a dir.
+
+```bash
+~$: rmdir tmp
+~$: ls 
+material  README.md
+```
+
+> Care to gues what is **rmdir** a shorthand for?
+
+#### touch
+Make an empty file.
+
+```bash
+~$: touch tmpfile.txt
+~$: ls 
+material  README.md tmpfile.txt
+```
+
+#### cp
+Copy file or directory.
+
+```bash
+~$: cp tmpfile.txt /tmp
+~$: ls
+material  README.md tmpfile.txt
+~$: ls /tmp
+tmpfile.txt
+```
+
+> Use option **-r** when copying folders.
+
+#### mv
+Move file or directory.
+
+```bash
+~$: mv tmpfile.txt material
+~$: ls
+material  README.md
+~$: ls material
+tmpfile.txt
+```
+
+> This command is used when you rename your files and folders as well.
+
+#### rm
+Remove files.
+
+```bash
+~$: rm material/tmpfile.txt
+~$: ls material
+
+```
+
+> Use with option **-r** to remove folders as well.
+
+
+## Other Tutorials
+* [Linux Survivals Tutorial](http://linuxsurvival.com/linux-tutorial-introduction/)
+* [University of Surrey Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
