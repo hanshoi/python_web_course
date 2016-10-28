@@ -189,6 +189,14 @@ Remove files.
 
 > Use with option **-r** to remove folders as well.
 
+#### ln
+Link to another file or folder
+
+```bash
+~$: ln -s somefile.txt linkfile.txt
+```
+> Option **-s** creates a symbolic link
+
 
 ### Editing Text
 Editing text in shell can be used either with commands ```nano``` or ```vi```. 
@@ -289,6 +297,14 @@ Gives the size of file
 
 > Different options gives different possibilities for different data for the file.
 
+#### find
+Find files on your system.
+
+```bash
+~$: find . -iname myfile.txt
+./myfile.txt
+```
+
 ### Sudo
 On Linux you can use program called sudo to run commands as different user. This is mainly used
 to run commands as root user to do actions that you wouldn't be normally allowed to do.
@@ -365,3 +381,33 @@ Basic command combinations for Debian based distros are following.
 ## Other Tutorials
 * [Linux Survivals Tutorial](http://linuxsurvival.com/linux-tutorial-introduction/)
 * [University of Surrey Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+
+
+## Excercises
+
+### Get to know you system
+
+1. Navigate to root folder
+1. Return back to your home folder
+1. List home folder contents
+1. Go exploring on your system and see what you find!!
+
+### Picture Gallery
+
+1. Download a picture of motorbike, car, plane and boat with your browser.
+1. Navigate to your Downloads folder
+1. Create a pictures folder for yourself in you home folder
+1. Move downloaded images there
+1. Create hidden folder called backups into picture folder
+1. Copy all images there
+1. Create folders for picture categories land, others
+1. Move pictures in their respective folders
+1. Create category folder wheels and link all wheeled pictures there
+
+### Install some programs
+
+1. Install following programs
+  * aptitude
+  * terminator
+  * buildessentials
+  * sl
