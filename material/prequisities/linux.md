@@ -403,6 +403,8 @@ Basic command combinations for Debian based distros are following.
 1. Create folders for picture categories land, others
 1. Move pictures in their respective folders
 1. Create category folder wheels and link all wheeled pictures there
+1. Change permission for all links in wheel to be read only and only for user
+1. Change link ownership to current user and group root. 
 
 ### Install some programs
 
@@ -411,3 +413,13 @@ Basic command combinations for Debian based distros are following.
   * terminator
   * buildessentials
   * sl
+1. Run program ```sl```
+
+
+### Pipe and Redirect
+
+1. list contents of your home folder and redirect output into a file
+2. How many lines are there in that file?
+3. Print all lines from that file and grep "Downloads" from it (use piping)
+4. Now do same as above but append the result into same file as previously
+
