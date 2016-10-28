@@ -33,6 +33,18 @@ directory path, in this case it is your current users home folder */home/myuser/
 home folder is generally marked with sign *~* and it can be used in navigation as well, like 
 ```cd ~```. *$:* is general separators that shows the current line you are writing on.
 
+## Directory Structure
+In linux your directory structure is constructed as a tree. You will have your root folder 
+(like a tree would have) and everything else is just folders within that root folder. 
+
+Root folder is referenced with single **/** sign. This means that using ```cd /``` will get 
+you into root folder. This is similar than jumping into home folder with sign *~*.
+
+Generally when you are using directory paths in linux you are using them either absolutely
+or relatively. Absolute path is prefixed with */* and relative is not. This means that if
+you write ```cd /tmp``` you will end up in *tmp* folder in root folder, however if you 
+write ```cd tmp``` you will end up in *tmp* folder within you current folder.
+
 ### Commands
 Using linux is based on running several separate programs that do one thing (but do it well).
 This means that the whole directory navigation consists of series of commands that are small
@@ -56,5 +68,10 @@ You can't much do anything if you don't know where you are, where you are going 
 there. Therefore first thing is to learn basic navigation in terminal.
 
 #### pwd
-Tells where you are currently in.
+Tells where you are currently in, relative to absolute path.
+
+```bash
+~$: pwd
+/home/myusername/
+```
 
