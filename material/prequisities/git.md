@@ -39,3 +39,193 @@ on you computer.
   * choose the cloning url
 1. now run the following in terminal for your new url
   * ```git clone <my repository url>```
+1. now you have a fresh repository on your computer. Congratulations!
+
+Now if you want to learn more about how to use github, please refer to [this guide](https://guides.github.com/activities/hello-world/) for a
+simple tutorial.
+
+
+## Tutorial
+For this part of our practicing we have chosen tutorial by Roger Dudler, by him a beer if you meet him.
+
+[Tutorial](http://rogerdudler.github.io/git-guide/)
+
+## Commands
+I'm providing the useful commands cheat sheet here. All commands start with the word **git** so that is the beginning so a basic git command
+would be something around the following.
+
+```bash
+git init <url>
+```
+
+#### init
+Initializes new git repository. Usually done on server side.
+
+```bash
+git init
+```
+
+#### clone
+Clone existing repository into given path
+
+```bash
+git clone <url>
+```
+
+#### status
+Check current status of your code.
+
+```bash
+git status
+```
+
+> Tells which code has been changed, which of them has been staged for commit and which haven't.
+
+#### add
+Add file to be staged for commit.
+
+```bash
+git add some_code_file.py
+```
+
+> Staging for commit means that next commit will include that file to be managed by git version control.
+
+#### rm
+Remove file from git version control.
+
+```bash
+git rm somefile.py
+```
+
+> Running standard ```rm``` from bash will remove the file but it won't remove it from git version control.
+> This means that next time you pull or change your code that file will be back, unless you remove it with git.
+
+#### mv
+Move or rename files
+
+```bash
+git mv some_file.py new_file.py
+```
+
+#### commit
+Commit staged changes. (This is basically same as save on your text editor)
+
+```bash
+git commit
+git commit -m "my commit message"
+git commit -a
+```
+
+> Remember you need to have some staged changes for this to have any effect. *-m* is a good option for this one,
+> it will allow you to write your commit message on that same line. *-a* is handy as well, it will commit all
+> changes in all files that are already under version control, with this you just need to be sure what you do,
+> not recommended for newbies.
+
+#### push
+Push your commits to remote server
+
+```bash
+git push
+```
+
+> After a commit you changes only exist locally, with push they will go to remote server as well.
+
+#### pull
+Pull commits from remote server
+
+```bash
+git pull
+git pull --rebase
+```
+
+> In case someone has made changes and pushed them to remote server, this will allow you to
+> "download" them into your computer. *--rebase* option will use rebase -merging strategy
+> when combining/merging commits together, check more of this on rebase command.
+
+#### branch
+Change or create a new branch
+
+```bash
+git branch
+git branch new_branch_name
+```
+
+> Without any argument it will list locally available branches (those you have pulled already).
+> With argument it will create a new branch with that name.
+
+#### checkout
+Change branch to another one.
+
+```bash
+git checkout master
+git checkout -b new_branch
+```
+
+> *-b* option allows you to create branch and checkout into it.
+
+
+#### log
+Commit logs
+
+```bash
+git log
+```
+
+#### reset
+Discard uncommitted changes
+
+```bash
+git reset --hard
+```
+
+#### revert
+Revert an commit
+
+```bash
+git revert <commit hash id>
+```
+
+> useful when you made something stupid in your commit
+
+#### diff
+Compare two versions and check the difference between them
+
+```bash
+git diff another_branch
+git diff antoher_branch some_file.py
+```
+
+> You can limit the scope of diff command to some specific files or folders.
+
+#### merge
+Combine changes in two branches
+
+```bash
+git merge another_branch
+```
+
+> merge will take changes from branch given as argument and put them into your current brach.
+> There may come some conflicts while you do this. Therefore it's good to know what you are
+> doing.
+
+#### rebase
+Combine changes in two branches. Okay, this is same as merge right? No, not quite. Merge will
+take another branch and merge changes there into this one. Rebase will take the whole branch
+with history and all and make them into one linear path, like the other branch never would have
+existed at all.
+
+```bash
+git rebase another_branch
+```
+
+> This is quite handy when combined with ```git pull``` command.
+
+#### tag
+Tag your commit with a meaningful name
+
+```bash
+git tag <a human readable commit name>
+```
+
+> Useful if you have some special point in code. Then give it a meaningful name with tag and
+> you won't need to remember it's commit hash. This could be a release version number for instance.
