@@ -31,3 +31,11 @@ where it can be accessed by everyone that requires access to it. This can be a b
 Okay, you now have git freshly installed on your computer and I'm expecting it to be a UNIX based computer as previously suggested on this
 tutorial, if not please refer elsewhere how to run git on Windows. Now open up your github account on browser and start a terminal session
 on you computer.
+
+1. create new repository on your github page
+1. add a README file into it on generation time
+1. after creation of repository, navigate to your repository page
+1. find a green button on the right for cloning and downloading repository
+  * choose the cloning url
+1. now run the following in terminal for your new url
+  * ```git clone <my repository url>```
