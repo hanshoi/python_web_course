@@ -126,6 +126,7 @@ Push your commits to remote server
 
 ```bash
 git push
+git push --set-upstream origin master
 ```
 
 > After a commit you changes only exist locally, with push they will go to remote server as well.
@@ -229,3 +230,65 @@ git tag <a human readable commit name>
 
 > Useful if you have some special point in code. Then give it a meaningful name with tag and
 > you won't need to remember it's commit hash. This could be a release version number for instance.
+
+#### stash
+Put your code aside for a moment and do something else.
+
+```bash
+git stash
+git stash list
+git stash pop
+```
+
+> Handy when you need to change branch ASAP but you have just some scribles on your current branch, really
+> nothing commit worthy.
+
+## Handy Tools
+
+* [gitk](https://git-scm.com/docs/gitk)
+* [git-up](https://pypi.python.org/pypi/git-up)
+
+## Pull Request
+When using a external tool like github, you can make pullrequests. This is a feature where you have made a branch
+or a fork of the main repo, made some changes there and you want to have those changes merged back to upstream
+(the master branch). On a case like this, you would make a pull request.
+
+Pull request is made so that another person can review your code and then either accept it or make some demands
+on what you have made and ask for some changes, or if a specially nasty bugger, decline your changes outright.
+
+
+## Excercises
+
+### Configure your git ###
+
+1. add email to git config
+1. add username to git config
+1. add couple of aliases to git config
+1. set git to user rebase as default merging strategy
+  * autosetuprebase = always
+1. add these aliases
+  * pushnew = "!s() { git push --set-upstream origin `git rev-parse --abbrev-ref HEAD`;  }; s"
+  * l = log --oneline --decorate
+
+### Clone Django
+1. Search github for Django project
+1. Clone it to your computer
+1. change to release 1.7 branch
+1. browse code around a bit
+1. try to merge 1.8 branch into 1.7
+  * run ```git merge --abort``` in horrific panic
+1. return to master branch
+
+### Make Your Own Repo
+1. Make public github repo for excercises of this course
+1. clone it to your computer
+1. make 'develop' branch in it
+1. checkout into it
+1. Add a README.md file and some description in it (in markdown format)
+1. commit and push
+1. change to master
+1. merge changes from develop branch and push
+1. Return to develop and alter you README file.
+1. Make a Pull Request in github from develop to master.
+1. Comment your fancy README file in it and merge it.
+1. return to master branch in terminal and pull your changes
