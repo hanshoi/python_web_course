@@ -270,15 +270,6 @@ on what you have made and ask for some changes, or if a specially nasty bugger, 
   * pushnew = "!s() { git push --set-upstream origin `git rev-parse --abbrev-ref HEAD`;  }; s"
   * l = log --oneline --decorate
 
-### Clone Django
-1. Search github for Django project
-1. Clone it to your computer
-1. change to release 1.7 branch
-1. browse code around a bit
-1. try to merge 1.8 branch into 1.7
-  * run ```git merge --abort``` in horrific panic
-1. return to master branch
-
 ### Make Your Own Repo
 1. Make public github repo for excercises of this course
 1. clone it to your computer
@@ -292,3 +283,12 @@ on what you have made and ask for some changes, or if a specially nasty bugger, 
 1. Make a Pull Request in github from develop to master.
 1. Comment your fancy README file in it and merge it.
 1. return to master branch in terminal and pull your changes
+
+### Clone Django
+1. Search github for Django project
+1. Clone it to your computer
+1. change to release 1.7 branch
+1. browse code around a bit
+1. try to merge 1.8 branch into 1.7
+  * run ```git merge --abort``` in horrific panic
+1. return to master branch
