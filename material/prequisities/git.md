@@ -267,7 +267,7 @@ on what you have made and ask for some changes, or if a specially nasty bugger, 
 1. set git to user rebase as default merging strategy
   * autosetuprebase = always
 1. add these aliases
-  * pushnew = "!s() { git push --set-upstream origin `git rev-parse --abbrev-ref HEAD`;  }; s"
+  * pushnew = "!s() { git push --set-upstream origin \`git rev-parse --abbrev-ref HEAD\`;  }; s"
   * l = log --oneline --decorate
 
 ### Make Your Own Repo
