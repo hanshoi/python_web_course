@@ -284,6 +284,13 @@ on what you have made and ask for some changes, or if a specially nasty bugger, 
 1. Comment your fancy README file in it and merge it.
 1. return to master branch in terminal and pull your changes
 
+### .gitignore
+1. create .gitignore file in your repository
+1. Checkout what this [file does](https://help.github.com/articles/ignoring-files/)
+1. create three files with endings .txt, .pip, .py respectively
+1. add a ruling so that all .txt files are ignored
+1. remember to commit your .gitignore file
+
 ### Clone Django
 1. Search github for Django project
 1. Clone it to your computer
