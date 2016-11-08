@@ -73,7 +73,133 @@ You install packages in Python with tool called **pip**, pip installs, removes, 
 If you are familiar with any other package management tool, then *pip* will feel very familiar to you. You use it like this:
 
 ```bash
-~$: pip seacrch pudb
+~$: pip search pudb
 ~$: pip install pudb
+~$: pip install setuptools --upgrade
+~$: pip install flask==4.7.2
+~$: pip install -r requirements_file.txt
 ~$: pip uninstall pudb
 ```
+> *--upgrade* option will install the latest version of that package. This is the default behaviour when installing new packages but if you
+> want to upgrade existing packages then that command is the way to go.
+
+> Giving flask==4.7.2 will install specific version of that package. This a critical feature when programming as a profession. If you
+> give program a general dependency to some package and some user will try to install you software 5 years later, do you think your
+> code will be compatible still with the newest versions of packages you are using? Propably not..
+
+> You can also put your dependencies into file (like *requirements_file.txt*) and then use option *-r* to install them from there.
+> In conjuction of specifying package versions, this is the professional way to go.
+
+All packages you install this way will require *sudo* prefix before them. This means that you are installing all those packages on system level.
+As you are developing multiple projects and having literally hundreds of python packages that you need to install and there may be conflicts in
+version dependencies as well, then this might not be the best way to go.
+
+## Virtualenv
+Virtualenv will create a sandbox for your python and python packages. This means that when you start a project and activate virtualenv, then
+that python and pip will be from that virtualenv and not from system. This also goes for all packages that you install, this way all
+packages you need for your project are neatly compartmentalized in their own places.
+
+### Install
+Only run following command:
+
+```bash
+~$: pip install virtualenv
+```
+
+or refer to their [installation documentation](https://virtualenv.pypa.io/en/stable/installation/).
+
+### Usage
+####create
+When using virtualenv you will create new virtualenv with on of the following commands:
+
+```bash
+~$: virtualenv <name>
+~$: virtualenv <name> -p /usr/bin/python2.7
+```
+
+just change *<name>* with something of you preference.
+
+> *-p* option allows you to specifically define which python executable should be used as the base
+> for this virtualenv.
+
+
+####activate
+Activate it by:
+
+```bash
+~$: source <name>/bin/activate
+(<name>) ~$:
+```
+
+####deactivate
+To stop using virtualenv.
+
+```bash
+(<name>) ~$: deactivate
+~$:
+```
+
+## Virtualenv Wrapper (optional)
+Okay, virtualenv is handy tool. However now you have folder everywhere with python packages in them and you need to remember which is where and
+from where to run the ```source <name>/bin/activate``` from. This all doesn't quite sit with my engineering (lazy ass) sprit of mine. In come
+virtualenvwrapper, it will handle all of this for you and provide easy to use commands for managing different virtualenvs.
+
+Install it by running:
+
+```bash
+~$: pip install virtualenvwrapper
+```
+
+and add following lines in your *~/.bashrc* file.
+
+```bash
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+```
+
+now starup a new terminal session and you should have all the virtualenvwrapper commands available and all you virtualenvs will end up in one specific
+folder *~/.virtualenvs*
+
+#### mkvirtualenv
+Create new virtualenv.
+
+```bash
+~$: mkvirtualenv <name>
+~$: mkvirtualenv <name> -p /usr/bin/python3
+```
+
+> *-p* option specifies specific python executable to be used.
+
+#### lsvirtualenv
+List all currently available virtualenvironments.
+
+```bash
+~$: lsvirtualenv
+<name>
+=======
+```
+
+#### workon
+Activate virtualenv with name
+
+```bash
+~$: workon <name>
+(<name>) ~$:
+```
+
+#### deactivate
+Deactivate current virtualenv
+
+```bash
+(<name>) ~$: deactivate
+~$:
+```
+
+> Not a command from virtualewrapper but good to remember anyway.
+
+## Misc (optional)
+For the really lazy out there checkout following
+
+* [autoenv](https://github.com/kennethreitz/autoenv)
+
+This will automatize your ```workon <name>``` commands and save you from typing.
