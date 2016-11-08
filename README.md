@@ -30,6 +30,8 @@ from it and doing the provided excercises right there in repository.
   * [Getting Started](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/getting_started.md)
   * [Learning Linux](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/linux.md)
   * [GIT](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/git.md)
+1. Python
+  * [Setup](https://github.com/hanshoi/python_web_course/blob/master/material/python/setup.md)
 
 
 ## Recommended Reading
