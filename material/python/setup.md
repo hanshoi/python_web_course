@@ -62,4 +62,18 @@ write Python commands and code directly:
 ```bash
 ~$: python
 >>>
+``
+
+## PyPi
+Python Package Index in a centralized repository/index from where we can install all our Python based packages. This is a easy to use tool
+for using Python packages in your system. This means that you don't need to manually download any zip packages and install them that way,
+but can use a tool like *apt-get* or *homebrew* to install packages for Python.
+
+You install packages in Python with tool called **pip**, pip installs, removes, updates and all other stuff required for package management.
+If you are familiar with any other package management tool, then *pip* will feel very familiar to you. You use it like this:
+
+```bash
+~$: pip seacrch pudb
+~$: pip install pudb
+~$: pip uninstall pudb
 ```
