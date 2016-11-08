@@ -62,7 +62,7 @@ write Python commands and code directly:
 ```bash
 ~$: python
 >>>
-``
+```
 
 ## PyPi
 Python Package Index in a centralized repository/index from where we can install all our Python based packages. This is a easy to use tool
