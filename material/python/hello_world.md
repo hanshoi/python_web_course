@@ -42,6 +42,26 @@ print myvariable
 
 This application would print text "Hi Jim!" into terminal.
 
+## Code Comments
+Sometimes you need to write some comments in your code. You can do this by prepending # in front of your text and
+python will ignore everything on that line after that.
+
+```python
+# full line comment
+myvariable = "Hi Jim!"  # after a variable comment
+```
+
+Also multiple line comments are possible by using triple "  to encompass those lines.
+
+```python
+"""
+This is a 
+multi 
+line 
+comment
+"""
+```
+
 
 ## Excercises
 ### Make Hello World Application
