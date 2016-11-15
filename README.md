@@ -32,6 +32,7 @@ from it and doing the provided excercises right there in repository.
   * [GIT](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/git.md)
 1. Python
   * [Setup](https://github.com/hanshoi/python_web_course/blob/master/material/python/setup.md)
+  * [Hello World](https://github.com/hanshoi/python_web_course/blob/master/material/python/hello_world.md)
 
 
 ## Recommended Reading
