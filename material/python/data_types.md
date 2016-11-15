@@ -179,3 +179,19 @@ You can remove data with the command *del*
 mydict = {'key': 'value', False: 1.1}
 del mydict['key']
 ```
+
+
+## Excercises
+### Lists
+1. make list with three integers
+1. add number 4 into it
+1. remove third number from it
+1. make list of string 
+1. add that list into the integer list
+
+### dictionary
+1. make dict with three key-value pairs
+1. add list into dict with number 1 in it
+1. add dict into list 
+1. make second dict and add that into that list as well
+1. now try to access the number 1 from the first list
