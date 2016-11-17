@@ -11,7 +11,7 @@ In Python there is different data types that you can use. Here are some examples
 
 You can assign datatypes into variables in Python. In Python variables ain't statically typed, this means
 that variables take any kind of datatype and you can't know what variables holds what type of variable.
-*Python is built on trust*, this means that it is up to developers to decide what is what and trust that 
+*Python is built on trust*, this means that it is up to developers to decide what is what and trust that
 others will do as agreed.
 
 > **Python is built on trust**
@@ -35,7 +35,7 @@ Code above will convert string "10" into integer number 10
 ```python
 myvar = True
 myvar = False
-myvar = bool("False")
+myvar = bool(1)
 ```
 
 ### integer
@@ -51,7 +51,7 @@ myvar = int(1.0)
 > Note that the conversion example int(1.0) will convert it to a integer 1, as decimals ain't supported in this data type.
 
 ### float
-Decimal number, like 1.1, 5.123123. 
+Decimal number, like 1.1, 5.123123.
 
 ```python
 myvar = 1.0
@@ -67,8 +67,8 @@ Sting is you basic plain text 'word' that you use. You can use ' or " for markin
 myvar = "some word"
 myvar = "more words"
 myvar = "c"
-myvar = string(222)
-myvar = """This is a 
+myvar = str(222)
+myvar = """This is a
 multiline
 string"""
 ```
@@ -77,21 +77,23 @@ string"""
 
 > Note that string only supports ASCII characters.
 
+For more string operations please refer to Pythons own documentation [here](https://docs.python.org/2/library/string.html).
+
 ### None
-None is the null variable of Python. This means empty variable. Variable with nothing in it. 
+None is the null variable of Python. This means empty variable. Variable with nothing in it.
 
 ```python
 myvar = None
 ```
 
-> You can't convert into None. Like True or False, None is always the one and only instance in Python, 
+> You can't convert into None. Like True or False, None is always the one and only instance in Python,
 > so some different rules apply. But more of this later.
 
 ## Container Types
-Container types are those that contains other data. 
+Container types are those that contains other data.
 
 ### list
-List is a basic list of things (variables). List is usually encompassed with square bracets [] and all variables are 
+List is a basic list of things (variables). List is usually encompassed with square bracets [] and all variables are
 separated with **,**. List is always mutable (you can change it's content) and ordered (items stays in order given).
 
 ```python
@@ -111,7 +113,7 @@ mylist.append(3)
 Now you have list [1, 2, 3]
 
 #### Access Position
-You can access list by calling that position by it's index number in square brancets []. Index number is the 
+You can access list by calling that position by it's index number in square brancets []. Index number is the
 position of number in a list, note that numbering in programmin always starts from 0 not 1, meaning that first item
 in list will be accessed with [0] not [1] (which will be the second item).
 
@@ -132,7 +134,7 @@ mylist.pop(1)
 
 Now you have a list [2], can you explain why?
 
-I won't go deeper into list here and now, if you need more check Python official documentation about it 
+I won't go deeper into list here and now, if you need more check Python official documentation about it
 [in here](https://docs.python.org/2/tutorial/datastructures.html).
 
 ### tuple
@@ -173,7 +175,7 @@ mydict['somekey'] = "some new value"
 ```
 
 ### Remove Data
-You can remove data with the command *del* 
+You can remove data with the command *del*
 
 ```python
 mydict = {'key': 'value', False: 1.1}
@@ -186,12 +188,12 @@ del mydict['key']
 1. make list with three integers
 1. add number 4 into it
 1. remove third number from it
-1. make list of string 
+1. make list of string
 1. add that list into the integer list
 
 ### dictionary
 1. make dict with three key-value pairs
 1. add list into dict with number 1 in it
-1. add dict into list 
+1. add dict into list
 1. make second dict and add that into that list as well
 1. now try to access the number 1 from the first list
