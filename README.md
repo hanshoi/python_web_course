@@ -35,6 +35,7 @@ from it and doing the provided excercises right there in repository.
   * [Hello World](https://github.com/hanshoi/python_web_course/blob/master/material/python/hello_world.md)
   * [Data Types](https://github.com/hanshoi/python_web_course/blob/master/material/python/data_types.md)
   * [Operators](https://github.com/hanshoi/python_web_course/blob/master/material/python/operators.md)
+  * [If-conditional](https://github.com/hanshoi/python_web_course/blob/master/material/python/if_conditional.md)
 
 
 ## Recommended Reading
