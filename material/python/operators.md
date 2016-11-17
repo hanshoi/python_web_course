@@ -86,3 +86,15 @@ if 1 in [1, 2, 3]:
 ```
 
 > All of these are valid cases.
+
+# and or
+You can use operators *and* and *or* to combine comparison operations. For and both operations have to be true, but for
+or only other one need to be true.
+
+```python
+if 1 == 1 or 2 == 1:
+    pass
+
+if 1 == 1 and True == True:
+    pass
+```
