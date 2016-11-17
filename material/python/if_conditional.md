@@ -35,7 +35,7 @@ if 1 == 1:
 ```
 
 > Note that if will validate also if no comparison operator is given. By default if conditional will evaluate
-> stuff with values that ain't inherently negative as valid. Inherently negative values are (0, -1 ... -9999999, False, None, [], "", {}, and so on...)
+> stuff with values that ain't inherently negative as valid. Inherently negative values are (0, False, None, [], "", {}, and so on...)
 
 ## else
 If *if*-conditional is not valid you can write *else*. This means that if *if* is not true you will go to else. Like this:
@@ -85,9 +85,9 @@ You will have Python list ["myfile.py", 1, 2, "12 asd 12"] in your Python code. 
 1. Using the cheat of the day. Make a file that prints all given arguments including filesname.
 1. Alter this given script so that it will print all given arguments *without* the filename.
 1. Alter file again so that it will print only the first value given.
-1. Alter so that it will print only first one if it is of type int
-1. Alter so that it will print also the second argument but only if it is a string
-1. Test will your code work if you give no arguments? If not, fix this.
+1. Alter so that it will print only first one if it is a number (can be converted to int)
+1. Test will your code work if you give no arguments? If not, fix this. (can break if wrong format)
+
 
 ### Calculator
 
