@@ -63,5 +63,41 @@ else:
 
 > In Python multiple elif commands are same as Switch conditional in other languages.
 
+## Excercises:
+Cheat of the Day:
+```python
+import sys
 
+command_line_arguments = sys.argv
+```
 
+This snippet of code will load all commandline arguments into a Python list called *command_line_arguments*. This means
+that if you call your file like this:
+
+```bash
+~$: python myfile.py 1 2 "12 asd 12"
+```
+
+You will have Python list ["myfile.py", 1, 2, "12 asd 12"] in your Python code. Notice that the files own name will be in the list as well.
+
+### Print Given arguments ###
+
+1. Using the cheat of the day. Make a file that prints all given arguments including filesname.
+1. Alter this given script so that it will print all given arguments *without* the filename.
+1. Alter file again so that it will print only the first value given.
+1. Alter so that it will print only first one if it is of type int
+1. Alter so that it will print also the second argument but only if it is a string
+1. Test will your code work if you give no arguments? If not, fix this.
+
+### Calculator
+
+Create a calculator application.
+
+Make your calculator python file take in an mathematical operation and print out the correct answer.
+You need to support at least following types of mathematical operations:
+
+* add
+* subtract (-)
+* multiply
+* divide
+* modulo

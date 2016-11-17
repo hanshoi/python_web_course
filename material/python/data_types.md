@@ -182,6 +182,14 @@ mydict = {'key': 'value', False: 1.1}
 del mydict['key']
 ```
 
+## Check Type
+To check what type some variable is you can use the *type()* function.
+
+```python
+if type(mydict) == dict:
+    print "this would be true"
+```
+
 
 ## Excercises
 ### Lists
