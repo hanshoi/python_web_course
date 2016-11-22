@@ -4,7 +4,7 @@ When you want to do actions to all items in a list or just make a virtual hamste
 will need to use loops. Loop will do certain block of commands in a loop or cyckle.
 
 ## for
-For loop will go through an iterable and run actions for every item in it. 
+For loop will go through an iterable and run actions for every item in it.
 
 ```python
 mylist = [1, 2, 3, 4]
@@ -13,7 +13,7 @@ for number in mylist:
     print number
 ```
 
-Code above will loop through list *mylist* and print every number in it. 
+Code above will loop through list *mylist* and print every number in it.
 
 For loops are handy when you want to do actions to some set of items in list, tuple or dictionary or for other sets with finite number of items, like a range of numbers.
 
@@ -41,7 +41,7 @@ for id, name in mylist:
 > Note that print can also take several variables.
 
 ### Loop a dict
-When looping a dict you can't just loop it through. You have to call some of it's helper functions to get it into iterable format. These are keys(), values(), items(). 
+When looping a dict you can't just loop it through. You have to call some of it's helper functions to get it into iterable format. These are keys(), values(), items().
 
 | name | description |
 | ---- | ----------- |
@@ -60,15 +60,15 @@ for key, value in mydict.items():
 Python built in command *range()* will give you a list with number from that given range.
 
 ```python
-print range(5)  # 1-5
-print range(2, 5)  # 2-5
+print range(5)  # 0-4
+print range(2, 5)  # 2-4
 
 for number in range(5):
     print number
 ```
 
 ## while
-If you just want to keep looping until some condition is met, then use the while loop. While loop will keep looping until the condition given will be False. Condition is given in same way as in if-conditional. 
+If you just want to keep looping until some condition is met, then use the while loop. While loop will keep looping until the condition given will be False. Condition is given in same way as in if-conditional.
 
 This is a great way to create mainloops for instance (used in game engines and some applications).
 
@@ -130,7 +130,7 @@ Our first game! Let's make our first game with creating a tick-tack-toe game.
 * After each input program will make winner evaluation and declare winner and exit program if a winner is found.
 
 #### Cheat of the day
-*raw_input()* and *input()* functions are your friends here. With those you can capture 
+*raw_input()* and *input()* functions are your friends here. With those you can capture
 input from user while program is running.
 
 ```python
