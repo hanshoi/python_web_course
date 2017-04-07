@@ -124,21 +124,4 @@ Make your own ls application (print all files and folder in this folder).
 Checks if the string entered by the user is a palindrome and print out if it is.
 That is that it reads the same forwards as backwards like “racecar”
 
-### Tick-Tack-Toe
-Our first game! Let's make our first game with creating a tick-tack-toe game.
-
-* 3x3 map will be used
-* Two player hotseat game (players input after each other)
-* User may select where they will put their mark
-* After each input program will print out the current situation
-* After each input program will make winner evaluation and declare winner and exit program if a winner is found.
-
-#### Cheat of the day
-*raw_input()* and *input()* functions are your friends here. With those you can capture
-input from user while program is running.
-
-```python
-command = raw_input("Where do you want to tack?:")
-```
-
 

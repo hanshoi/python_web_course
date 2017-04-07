@@ -63,18 +63,16 @@ print "back to first block. Man that was lot of Blocks!"
 
 ### Excercises ###
 
-#### FizzBuzz ####
+#### Sum of Vowels
+Enter a string and the program counts the number of vowels in the text.
 
-Lets do this classic programming excecise. Print all number from 0 to 100. If number is divisible with 3 then print "Fizz" instead of the number, if the number is divisible with 5 then print "Buzz", if it is divisible with both then print "Fizz Buzz".
+#### Ascii Sum of Vowels
+Enchance previous exercise and calculate sum of all ASCII values of vowels in text.
 
-#### ls ####
+Example:
+Sum on "one" is 212, because ASCII value of "o" is 111 and "e" is 101, hence 111+101=212
 
-Make your own ls application (print all files and folder in this folder).
-
-> **os** library is your friend here, checkout it's documentation. ```import os```
-
-1. make ls application that prints all files and folders in current folder
-1. alter this implementation by accepting pathname as argument to your application
+> ```ord("o")``` is your friend here (tells ASCII value of a letter).
 
 #### Tick-Tack-Toe ####
 
