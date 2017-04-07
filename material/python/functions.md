@@ -134,6 +134,22 @@ print_x_y(x=1, y=2, z=3)
 # 2
 ```
 
+#### Calling Functions
+Function is only executed when called.
+
+```python
+def myfunc(firstname, lastname):
+    print firstname, lastname
+
+myfunc("James", "Bond")  # normal call
+myfunc(lastname="Bond", firstname="James")  # call using keywords
+```
+
+You can call with either positional arguments. This is when you use argument position to indicate which named argument it is. Other way is to use
+keyword arguments where you add argument with it's corresponding keyword to indicate to which named argument it is.
+
+**Keyword arguments have always to come after positional arguments when a combination is given.**
+
 ### Excercises ###
 
 #### Sum of Vowels
