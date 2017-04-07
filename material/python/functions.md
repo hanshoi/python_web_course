@@ -163,6 +163,19 @@ Sum on "one" is 212, because ASCII value of "o" is 111 and "e" is 101, hence 111
 
 > ```ord("o")``` is your friend here (tells ASCII value of a letter).
 
+#### Coin Flip Simulator
+Write some code that simulates flipping a single coin however many times the user decides.
+The code should record the outcomes and count the number of tails and heads.
+
+##### Cheat of the day
+Use module random and from it either function choice() or randint().
+
+```python
+import random
+random.choice([True, False])
+random.randint(0, 1)
+```
+
 #### Tick-Tack-Toe ####
 
 Our first game! Let's make our first game with creating a tick-tack-toe game.
