@@ -88,7 +88,7 @@ say_hello("Jim", 5)
 
 This will by default print word "Jim" on time, but can be changed by giving some value for _times_ argument.
 
-**Arguments with defaults have always to be after, arguments without defaults!**
+> Arguments with defaults have always to be after, arguments without defaults!
 
 ##### *args
 There is couple wildcard arguments that can be assigned in function definitions. These are used when you are unsure how many arguments
@@ -113,7 +113,7 @@ second_function("Birdie", "Jim", "likes", "apples")
 # Jim likes apples
 ```
 
-**Wildcards come always after named arguments**
+> Wildcards come always after named arguments
 
 > Note: *args is common name for unnamed argument tuple
 
@@ -148,7 +148,7 @@ myfunc(lastname="Bond", firstname="James")  # call using keywords
 You can call with either positional arguments. This is when you use argument position to indicate which named argument it is. Other way is to use
 keyword arguments where you add argument with it's corresponding keyword to indicate to which named argument it is.
 
-**Keyword arguments have always to come after positional arguments when a combination is given.**
+> Keyword arguments have always to come after positional arguments when a combination is given.
 
 ### Excercises ###
 
