@@ -124,4 +124,14 @@ Make your own ls application (print all files and folder in this folder).
 Checks if the string entered by the user is a palindrome and print out if it is.
 That is that it reads the same forwards as backwards like “racecar”
 
+### Currency Changer
+Choose 2 currencies. Make currency calculator that will change from one currency to other when that currency is given (You may hard code currecy values).
+
+```bash
+$: python change_currency.py 100€
+89$
+
+$: python change_currency.py 89$
+100€
+```
 

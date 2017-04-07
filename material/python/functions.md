@@ -70,7 +70,8 @@ def calculate_point(x, y):
 calculate_point(13, 20)
 ```
 
-In python you just give the name
+In python you just give the name for you arguments but no types are needed or even possible to give.
+You can indicate type with naming though.
 
 ### Excercises ###
 
