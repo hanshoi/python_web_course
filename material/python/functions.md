@@ -88,7 +88,7 @@ say_hello("Jim", 5)
 
 This will by default print word "Jim" on time, but can be changed by giving some value for _times_ argument.
 
-*Arguments with defaults have always to be after, arguments without defaults!*
+**Arguments with defaults have always to be after, arguments without defaults!**
 
 ##### *args
 There is couple wildcard arguments that can be assigned in function definitions. These are used when you are unsure how many arguments
@@ -113,7 +113,7 @@ second_function("Birdie", "Jim", "likes", "apples")
 # Jim likes apples
 ```
 
-*Wildcards come always after named arguments*
+**Wildcards come always after named arguments**
 
 > Note: *args is common name for unnamed argument tuple
 
