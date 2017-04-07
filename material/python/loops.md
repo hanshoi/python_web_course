@@ -120,6 +120,10 @@ Make your own ls application (print all files and folder in this folder).
 1. make ls application that prints all files and folders in current folder
 1. alter this implementation by accepting pathname as argument to your application
 
+### Palindrome
+Checks if the string entered by the user is a palindrome and print out if it is.
+That is that it reads the same forwards as backwards like “racecar”
+
 ### Tick-Tack-Toe
 Our first game! Let's make our first game with creating a tick-tack-toe game.
 
