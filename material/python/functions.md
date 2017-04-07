@@ -60,6 +60,17 @@ if x == 1:
 print "back to first block. Man that was lot of Blocks!"
 ```
 
+#### Function Arguments
+Function takes arguments in within it's parentheses, like this:
+
+```python
+def calculate_point(x, y):
+    print x+y
+
+calculate_point(13, 20)
+```
+
+In python you just give the name
 
 ### Excercises ###
 
