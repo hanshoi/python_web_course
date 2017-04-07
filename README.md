@@ -37,6 +37,7 @@ from it and doing the provided excercises right there in repository.
   * [Operators](https://github.com/hanshoi/python_web_course/blob/master/material/python/operators.md)
   * [If-conditional](https://github.com/hanshoi/python_web_course/blob/master/material/python/if_conditional.md)
   * [Loops](https://github.com/hanshoi/python_web_course/blob/master/material/python/loops.md)
+  * [Functions](https://github.com/hanshoi/python_web_course/blob/master/material/python/functions.md)
 
 
 ## Recommended Reading
