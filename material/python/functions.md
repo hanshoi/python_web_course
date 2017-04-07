@@ -71,7 +71,68 @@ calculate_point(13, 20)
 ```
 
 In python you just give the name for you arguments but no types are needed or even possible to give.
-You can indicate type with naming though.
+You can indicate type with naming though, like _sum_of_vowels_ propably is an integer. So like in everywhere
+in Python developers work on trust principle and believe to get right types of arguments.
+
+##### default values
+Function arguments can be given default values.
+
+```python
+def say_hello(name, times=1):
+    for i in range(times):
+        print name
+
+say_hello("Jim")
+say_hello("Jim", 5)
+```
+
+This will by default print word "Jim" on time, but can be changed by giving some value for _times_ argument.
+
+*Arguments with defaults have always to be after, arguments without defaults!*
+
+##### *args
+There is couple wildcard arguments that can be assigned in function definitions. These are used when you are unsure how many arguments
+you will get to your functions. Generally wildcards should be avoided if not necessary but they are a good tool to master.
+
+One _star_ * indicates that following argument is a tuple of all remaining arguments that weren't specifically named.
+
+```python
+def myfunction(*args):
+    print args
+
+myfunction(1, 2, True, "asdsad")
+# this will print >> (1, 2, True, "asdsad")
+
+def second_function(named_argument, *rest):
+    print named_argument
+    print " ".join(rest)
+
+second_function("Birdie", "Jim", "likes", "apples")
+# prints >>
+# Birdie
+# Jim likes apples
+```
+
+*Wildcards come always after named arguments*
+
+> Note: *args is common name for unnamed argument tuple
+
+##### **kwargs
+** is keyword arguments which are given in a dict. If argument that isn't named is given to function with a keyword it is
+not placed into *args but rather into **kwargs and a dict, which may be simpler to handle.
+
+```python
+def print_x_y(**kwargs):
+    print kwargs
+    print kwargs['x']
+    print kwargs['y']
+
+print_x_y(x=1, y=2, z=3)
+# prints >>
+# {'x':1, 'y':2, 'z':3}
+# 1
+# 2
+```
 
 ### Excercises ###
 
