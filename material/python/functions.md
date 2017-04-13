@@ -162,6 +162,16 @@ name = get_name()
 
 
 ### Excercises ###
+Use functions and the main if in next execises. Like this:
+
+```python
+def my_function():
+    return "variable"
+
+if __name__ == "__main__":
+    # do program execution here
+    print my_function()
+```
 
 #### Sum of Vowels
 Enter a string and the program counts the number of vowels in the text.
