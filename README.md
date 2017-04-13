@@ -27,18 +27,18 @@ from it and doing the provided excercises right there in repository.
 
 ## Table of Contents
 1. Prequisities
-  * [Getting Started](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/getting_started.md)
-  * [Learning Linux](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/linux.md)
-  * [GIT](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/git.md)
+    * [Getting Started](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/getting_started.md)
+    * [Learning Linux](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/linux.md)
+    * [GIT](https://github.com/hanshoi/python_web_course/blob/master/material/prequisities/git.md)
 1. Python
-  * [Setup](https://github.com/hanshoi/python_web_course/blob/master/material/python/setup.md)
-  * [Hello World](https://github.com/hanshoi/python_web_course/blob/master/material/python/hello_world.md)
-  * [Data Types](https://github.com/hanshoi/python_web_course/blob/master/material/python/data_types.md)
-  * [Operators](https://github.com/hanshoi/python_web_course/blob/master/material/python/operators.md)
-  * [If-conditional](https://github.com/hanshoi/python_web_course/blob/master/material/python/if_conditional.md)
-  * [Loops](https://github.com/hanshoi/python_web_course/blob/master/material/python/loops.md)
-  * [Functions](https://github.com/hanshoi/python_web_course/blob/master/material/python/functions.md)
-  * [Classes](https://github.com/hanshoi/python_web_course/blob/master/material/python/classes.md)
+    * [Setup](https://github.com/hanshoi/python_web_course/blob/master/material/python/setup.md)
+    * [Hello World](https://github.com/hanshoi/python_web_course/blob/master/material/python/hello_world.md)
+    * [Data Types](https://github.com/hanshoi/python_web_course/blob/master/material/python/data_types.md)
+    * [Operators](https://github.com/hanshoi/python_web_course/blob/master/material/python/operators.md)
+    * [If-conditional](https://github.com/hanshoi/python_web_course/blob/master/material/python/if_conditional.md)
+    * [Loops](https://github.com/hanshoi/python_web_course/blob/master/material/python/loops.md)
+    * [Functions](https://github.com/hanshoi/python_web_course/blob/master/material/python/functions.md)
+    * [Classes](https://github.com/hanshoi/python_web_course/blob/master/material/python/classes.md)
 
 
 ## Recommended Reading
