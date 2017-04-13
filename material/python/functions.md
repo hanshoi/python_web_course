@@ -150,6 +150,17 @@ keyword arguments where you add argument with it's corresponding keyword to indi
 
 > Keyword arguments have always to come after positional arguments when a combination is given.
 
+#### Return
+Return values from functions with ```return``` keyword.
+
+```python
+def get_name():
+    return "Jim Toddler"
+
+name = get_name()
+```
+
+
 ### Excercises ###
 
 #### Sum of Vowels
