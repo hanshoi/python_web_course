@@ -213,8 +213,8 @@ Our first game! Let's make our first game with creating a tick-tack-toe game.
 
 ##### Cheat of the day #####
 
-*raw_input()* and *input()* functions are your friends here. With those you can capture
-input from user while program is running.
+*raw_input()* function is your friend here. With that you can capture
+input from user while program is running. This can also be put into a function.
 
 ```python
 command = raw_input("Where do you want to tack?:")
