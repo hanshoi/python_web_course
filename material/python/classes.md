@@ -161,3 +161,17 @@ Then create an inventory class which keeps track of various products and can sum
 Take your Tic-Tac-Toe game from functions excercises and make it so that it uses classes instead of pure functions. This means that
 at least GameBoard, Player will have their own classes.
 
+#### Linked List
+Make a [singly linked list](https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list). This means that (without using lists or
+other data containers) make a list where every link only knows it's value and next item on the list (if such exists).
+
+Implement following classes:
+* LinkedList
+* Link
+
+Implement following features to LinkedList:
+* append(), add a new item to end of list
+* len(), get amount of items in the list
+* del(position), remove item in given position
+* insert(position), add item into given position in list (0 == first, 1 == second). If position longer that there is items, then append it to end of list.
+
