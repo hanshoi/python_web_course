@@ -38,6 +38,7 @@ from it and doing the provided excercises right there in repository.
   * [If-conditional](https://github.com/hanshoi/python_web_course/blob/master/material/python/if_conditional.md)
   * [Loops](https://github.com/hanshoi/python_web_course/blob/master/material/python/loops.md)
   * [Functions](https://github.com/hanshoi/python_web_course/blob/master/material/python/functions.md)
+  * [Classes](https://github.com/hanshoi/python_web_course/blob/master/material/python/classes.md)
 
 
 ## Recommended Reading
