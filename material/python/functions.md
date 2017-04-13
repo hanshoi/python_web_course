@@ -178,7 +178,7 @@ Enter a string and the program counts the number of vowels in the text.
 
 > You could use own function of comparing if a character is a vowel ```def is_vowel(character)```
 
-Vowels to compare: ```"aeiouvy"```, take account both lower and uppercase letters.
+Vowels to compare: ```"aeiouy"```, take account both lower and uppercase letters.
 
 #### Ascii Sum of Vowels
 Enchance previous exercise and calculate sum of all ASCII values of vowels in text.
