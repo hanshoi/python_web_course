@@ -157,6 +157,10 @@ Defining attributes is a good practice, it's actually better than defining them 
 Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand.
 Then create an inventory class which keeps track of various products and can sum up the inventory value.
 
+Invetory class implements:
+* add_products()
+* sum_prices()
+
 #### Refactor Tic-Tac-Toe
 Take your Tic-Tac-Toe game from functions excercises and make it so that it uses classes instead of pure functions. This means that
 at least GameBoard, Player will have their own classes.
