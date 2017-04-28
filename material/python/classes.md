@@ -161,6 +161,15 @@ Invetory class implements:
 * add_products()
 * sum_prices()
 
+#### Recipe Creator and Manager
+Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts, main courses or by ingredients like chicken, beef, soups, pies etc.
+
+Implement following features:
+* Recipe and RecipeManager classes
+* Recipe may have one or more keywords
+* keywords are: soup, meat, chicken, vegetable, dessert
+* implement a getter function for every keyword to RecipeManager, get_soups(), get_meat(), etc... They will return all recipes that match that keyword.
+
 #### Refactor Tic-Tac-Toe
 Take your Tic-Tac-Toe game from functions excercises and make it so that it uses classes instead of pure functions. This means that
 at least GameBoard, Player will have their own classes.
