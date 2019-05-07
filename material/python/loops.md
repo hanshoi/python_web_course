@@ -1,7 +1,7 @@
 # Loops #
 
 When you want to do actions to all items in a list or just make a virtual hamster wheel, you
-will need to use loops. Loop will do certain block of commands in a loop or cyckle.
+will need to use loops. Loop will do certain block of commands in a loop or cycle.
 
 ## for
 For loop will go through an iterable and run actions for every item in it.
@@ -107,7 +107,7 @@ for number in mylist:
 ```
 Only number 1 will get printed.
 
-## Excercises
+## Exercises
 
 ### FizzBuzz
 Lets do this classic programming excecise. Print all number from 0 to 100. If number is divisible with 3 then print "Fizz" instead of the number, if the number is divisible with 5 then print "Buzz", if it is divisible with both then print "Fizz Buzz".
@@ -125,7 +125,7 @@ Checks if the string entered by the user is a palindrome and print out if it is.
 That is that it reads the same forwards as backwards like “racecar”
 
 ### Currency Changer
-Choose 2 currencies. Make currency calculator that will change from one currency to other when that currency is given (You may hard code currecy values).
+Choose 2 currencies. Make currency calculator that will change from one currency to other when that currency is given (You may hard code currency values).
 
 ```bash
 $: python change_currency.py 100€

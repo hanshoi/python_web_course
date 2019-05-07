@@ -117,15 +117,15 @@ As you notice from example above, functions in classes are similar to normal fun
 Normal class functions include ```self``` and are called through it's object. This means calling like ```Point.sum()```
 would not work but calling through the object ```point1.sum()``` will work.
 
-> There is couple execeptions to calling through the object -rule, namely ```classmethod```s and ```staticmethod```s, but those
+> There is couple exceptions to calling through the object -rule, namely ```classmethod```s and ```staticmethod```s, but those
 > we will go through in Advanced section of our guide.
 
-```self``` represents object itself (hence `self`) in funcions, this means if you want to call function or access attribute
+```self``` represents object itself (hence `self`) in functions, this means if you want to call function or access attribute
 of that specific object, you would use ```self```. ```self``` is the first parameter of class functions always, even though
 none would otherwise be given, and when that function is called it isn't counted as a parameter.
 
 ### Constructor
-In Python constructors are called ```__init__(self)```. Contructor is a function that is called when object is created.
+In Python constructors are called ```__init__(self)```. Constructor is a function that is called when object is created.
 
 ```python
 class Point(object):
@@ -143,7 +143,7 @@ print point1.x
 ```__init__``` is called with the object creation parentheses and with ```self``` as first argument. Otherwise it follows normal
 function parameter rules.
 
-Notice that we don't need to define attributes on class level as we define them in contructor. Defining attributes can be done
+Notice that we don't need to define attributes on class level as we define them in constructor. Defining attributes can be done
 anywhere in class, however some functions may need them so you need to make sure that they are defined before accessing them.
 Defining attributes is a good practice, it's actually better than defining them on class level.
 
@@ -152,12 +152,12 @@ Defining attributes is a good practice, it's actually better than defining them 
 > Python classes don't use destructors
 
 
-### Excercises ###
+### Exercises ###
 #### Product Inventory
 Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand.
 Then create an inventory class which keeps track of various products and can sum up the inventory value.
 
-Invetory class implements:
+Inventory class implements:
 * add_products()
 * sum_prices()
 
@@ -171,7 +171,7 @@ Implement following features:
 * implement a getter function for every keyword to RecipeManager, get_soups(), get_meat(), etc... They will return all recipes that match that keyword.
 
 #### Refactor Tic-Tac-Toe
-Take your Tic-Tac-Toe game from functions excercises and make it so that it uses classes instead of pure functions. This means that
+Take your Tic-Tac-Toe game from functions exercises and make it so that it uses classes instead of pure functions. This means that
 at least GameBoard, Player will have their own classes.
 
 #### Linked List

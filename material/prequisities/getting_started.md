@@ -31,7 +31,7 @@ programming is just writing text files, not magic, and you won't need anything s
 
 That being said, there are text editors that specialise in programming and that way make
 writing code with them fast, efficient and generally a pleasure. From these editors
-there [Vim](http://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are propably
+there [Vim](http://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are probably
 most famous ones. These editors have been in active use for decades and time and time again
 developers are [flogging into the ranks of these editors](https://en.wikipedia.org/wiki/Editor_war).
 
@@ -51,12 +51,12 @@ __So please install [SublimeText](https://www.sublimetext.com/)__
 You need to save your code somehow. You do it for you essays in school already, you have them in all kind of places. You have essay_final.txt
 on you computer, essay_final_final.txt on your thumbdrive and essay_this_is_really_the_final_one.txt on your laptop. You see the problem here?
 
-For programming, even more so than your essays, it's imperetive to save your work. So why not use dropbox? Reason is that we don't just want to
+For programming, even more so than your essays, it's imperative to save your work. So why not use dropbox? Reason is that we don't just want to
 save it, we want to control it specifically. We want to have several people to work on single files, we want to go back on changes done
 on files and we want to have it all available now. This is where version control comes in.
 
 There is several version control systems but best (and most difficult to grasp) is [git](https://en.wikipedia.org/wiki/Git). Git might be
-mind bogling at the beginning but when you graps how it works it will let you become the
+mind bogling at the beginning but when you grasp how it works it will let you become the
 [benevolent dictator](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) of your code.
 
 ## Python
@@ -64,7 +64,7 @@ You will have python pre-installed by your system in almost all cases. Unless yo
 you should uninstall it (Windows, not python).
 
 Generally you should know there is two main versions of python, 2 and 3. 3 is where things are generally going towards
-and there starts currently to be quite large adoption of it. However still in 2016 python2 is the main python laguage
+and there starts currently to be quite large adoption of it. However still in 2016 python2 is the main python language
 and when talking about python we do refer to python2.
 
 ## Browser

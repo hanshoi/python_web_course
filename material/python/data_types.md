@@ -114,7 +114,7 @@ Now you have list [1, 2, 3]
 
 #### Access Position
 You can access list by calling that position by it's index number in square brancets []. Index number is the
-position of number in a list, note that numbering in programmin always starts from 0 not 1, meaning that first item
+position of number in a list, note that numbering in programming always starts from 0 not 1, meaning that first item
 in list will be accessed with [0] not [1] (which will be the second item).
 
 ```python
@@ -149,7 +149,7 @@ myvar = (1, 2, 1)
 Accessing is done same way as in the lists.
 
 ### dict
-Dictionary is a container where you will assign your data with a keyword and can use that for searhing it quicly later on.
+Dictionary is a container where you will assign your data with a keyword and can use that for searhing it quickly later on.
 Dictionary is always unordered (order will change every time you call it) and mutable.
 
 ```python
@@ -191,7 +191,7 @@ if type(mydict) == dict:
 ```
 
 
-## Excercises
+## Exercises
 ### Lists
 1. make list with three integers
 1. add number 4 into it

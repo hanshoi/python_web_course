@@ -48,7 +48,7 @@ else:
 ```
 
 ## elif
-Sometimes you wan't to have many conditionals before your else. You can have as many you want with elif. Like this:
+Sometimes you want to have many conditionals before your else. You can have as many you want with elif. Like this:
 
 ```python
 if False:
@@ -63,7 +63,7 @@ else:
 
 > In Python multiple elif commands are same as Switch conditional in other languages.
 
-## Excercises:
+## Exercises:
 Cheat of the Day:
 ```python
 import sys
@@ -82,7 +82,7 @@ You will have Python list ["myfile.py", 1, 2, "12 asd 12"] in your Python code. 
 
 ### Print Given arguments ###
 
-1. Using the cheat of the day. Make a file that prints all given arguments including filesname.
+1. Using the cheat of the day. Make a file that prints all given arguments including filename.
 1. Alter this given script so that it will print all given arguments *without* the filename.
 1. Alter file again so that it will print only the first value given.
 1. Alter so that it will print only first one if it is a number (can be converted to int)

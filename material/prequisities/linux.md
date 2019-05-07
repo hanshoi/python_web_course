@@ -10,7 +10,7 @@ What distinguishes Linux from the previously mentioned is that its open source, 
 that anyone can join in to develop Linux. This doesn't make it brittle however, as there
 is literally thousands of volunteers working on it and everything goes through rigorous 
 review and testing. This would make it in some cases even more reliable and robust than 
-its propietary counter parts.
+its proprietary counter parts.
 
 ## Tutorial
 As I don't go in details I will provide another one that will. In this chapter we will be
@@ -141,7 +141,7 @@ Remove a dir.
 material  README.md
 ```
 
-> Care to gues what is **rmdir** a shorthand for?
+> Care to guess what is **rmdir** a shorthand for?
 
 #### touch
 Make an empty file.
@@ -244,7 +244,7 @@ Change owner for file or folder
 ~$: chown root:root tmpfile.txt
 ```
 
-> Option <user>:<group> means just that, whos file it is an into whos group does it belong to.
+> Option <user>:<group> means just that, whose file it is an into whose group does it belong to.
 
 ### Grep and Regular Expression
 
@@ -261,7 +261,7 @@ I am some text
 ### Filtering
 
 #### head
-Show certain number of lines at begining of file.
+Show certain number of lines at beginning of file.
 
 ```bash
 ~$: head -1 myfile.txt
@@ -383,7 +383,7 @@ Basic command combinations for Debian based distros are following.
 * [University of Surrey Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 
-## Excercises
+## Exercises
 
 ### Get to know you system
 
