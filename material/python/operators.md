@@ -45,9 +45,9 @@ myint += 5
 | Sign | Description |
 | ---- | ----------- |
 | == | Equals to. Two types are of same value |
-| != | Equals not. Two types are definately not of save value |
+| != | Equals not. Two types are definitely not of save value |
 | is | Values are same instance (not just same value) |
-| is not | Definately ain't same instance (though might be of same value) |
+| is not | Definitely ain't same instance (though might be of same value) |
 | < | less than |
 | > | greater than |
 | <= | less or equal than |

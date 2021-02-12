@@ -33,7 +33,7 @@ def trololololo():
     print "Be or not to be!"
 ```
 
-In python function names we use all lower case letters serparated by underscore. This is a system to separate them visually from classes (which are Captitalized for every word, also known as
+In python function names we use all lower case letters separated by underscore. This is a system to separate them visually from classes (which are Captitalized for every word, also known as
 camel case).
 
 It is generally used that function names should be verbs, as they usually are doing something, ie. get_superhero_logo(), print_hello(), calculate_vector().
@@ -71,7 +71,7 @@ calculate_point(13, 20)
 ```
 
 In python you just give the name for you arguments but no types are needed or even possible to give.
-You can indicate type with naming though, like _sum_of_vowels_ propably is an integer. So like in everywhere
+You can indicate type with naming though, like _sum_of_vowels_ probably is an integer. So like in everywhere
 in Python developers work on trust principle and believe to get right types of arguments.
 
 ##### default values
@@ -161,7 +161,7 @@ name = get_name()
 ```
 
 
-### Excercises ###
+### Exercises ###
 Use functions and the main if in next execises. Like this:
 
 ```python
@@ -181,7 +181,7 @@ Enter a string and the program counts the number of vowels in the text.
 Vowels to compare: ```"aeiouy"```, take account both lower and uppercase letters.
 
 #### Ascii Sum of Vowels
-Enchance previous exercise and calculate sum of all ASCII values of vowels in text.
+Enhance previous exercise and calculate sum of all ASCII values of vowels in text.
 
 Example:
 Sum on "one" is 212, because ASCII value of "o" is 111 and "e" is 101, hence 111+101=212

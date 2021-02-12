@@ -12,7 +12,7 @@ are necessary.
 > Remember that Python is a scripting language and not compiled one. This means a slight performance drop, so sometimes
 > you need to change into some compiled language (like C).
 
-Python has been written simplicity and readibility in mind. Therefore it's pleasant to read and easier to understand, making
+Python has been written simplicity and readability in mind. Therefore it's pleasant to read and easier to understand, making
 it very suitable for teaching basics of programming. Other uses for Python is:
 
 * Prototyping, Python allows to make working applications quickly, this makes it good for prototyping
@@ -20,7 +20,7 @@ it very suitable for teaching basics of programming. Other uses for Python is:
 
 ## Python Versions
 Currently there is two versions of Python, 2 and 3. 3 being the future of Python and there is large scale adoption going on currently
-and it most propably is the preferred version to use at the time when you are reading it. 3 is also the version that you should be learning.
+and it most probably is the preferred version to use at the time when you are reading it. 3 is also the version that you should be learning.
 
 However on this tutorial we will be using version 2. This is because almost all companies are still using version 2, and if you see
 a job application where Python is mentioned then they mean Python 2 (however it is good to know about Python 3 to land the job like a boss).
@@ -29,7 +29,7 @@ Python 2 is still the one that is used everywhere and all libraries and applicat
 and tools converted to Python 3 yet.
 
 ## Install
-On most systems python is pre-installed with the operating system and if you followed my guidance and isntalled Debian based Linux distibution,
+On most systems python is pre-installed with the operating system and if you followed my guidance and installed Debian based Linux distribution,
 then you have it installed. If you don't have it, please refer to link below:
 
 * [Install Python](https://www.python.org/downloads/)
@@ -55,7 +55,7 @@ Hello you delicious developer!
 
 
 ### Python shell
-You can use Python as a shell as well. You can do this by invoking Python directly without any file as paremeter. In Python shell you can
+You can use Python as a shell as well. You can do this by invoking Python directly without any file as parameter. In Python shell you can
 write Python commands and code directly:
 
 
@@ -85,10 +85,10 @@ If you are familiar with any other package management tool, then *pip* will feel
 
 > Giving flask==4.7.2 will install specific version of that package. This a critical feature when programming as a profession. If you
 > give program a general dependency to some package and some user will try to install you software 5 years later, do you think your
-> code will be compatible still with the newest versions of packages you are using? Propably not..
+> code will be compatible still with the newest versions of packages you are using? Probably not..
 
 > You can also put your dependencies into file (like *requirements_file.txt*) and then use option *-r* to install them from there.
-> In conjuction of specifying package versions, this is the professional way to go.
+> In conjunction of specifying package versions, this is the professional way to go.
 
 All packages you install this way will require *sudo* prefix before them. This means that you are installing all those packages on system level.
 As you are developing multiple projects and having literally hundreds of python packages that you need to install and there may be conflicts in
@@ -157,7 +157,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
-now starup a new terminal session and you should have all the virtualenvwrapper commands available and all you virtualenvs will end up in one specific
+now startup a new terminal session and you should have all the virtualenvwrapper commands available and all you virtualenvs will end up in one specific
 folder *~/.virtualenvs*
 
 #### mkvirtualenv

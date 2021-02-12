@@ -13,7 +13,7 @@ Version control can be seen as having multiple parallel versions of same thing t
 into one working version and also to go forward and back in history of changes in file or files.
 
 There is several version control systems but best (and most difficult to grasp) is [git](https://en.wikipedia.org/wiki/Git). Git might be
-mind bogling at the beginning but when you graps how it works it will let you become the
+mind bogling at the beginning but when you grasp how it works it will let you become the
 [benevolent dictator](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) of your code.
 
 ## Getting Started
@@ -205,7 +205,7 @@ Combine changes in two branches
 git merge another_branch
 ```
 
-> merge will take changes from branch given as argument and put them into your current brach.
+> merge will take changes from branch given as argument and put them into your current branch.
 > There may come some conflicts while you do this. Therefore it's good to know what you are
 > doing.
 
@@ -257,7 +257,7 @@ Pull request is made so that another person can review your code and then either
 on what you have made and ask for some changes, or if a specially nasty bugger, decline your changes outright.
 
 
-## Excercises
+## Exercises
 
 ### Configure your git ###
 
@@ -271,7 +271,7 @@ on what you have made and ask for some changes, or if a specially nasty bugger, 
   * l = log --oneline --decorate
 
 ### Make Your Own Repo
-1. Make public github repo for excercises of this course
+1. Make public github repo for exercises of this course
 1. clone it to your computer
 1. make 'develop' branch in it
 1. checkout into it

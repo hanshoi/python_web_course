@@ -1,5 +1,5 @@
 # Hello World
-We are going to replicate the legendary programming excercise 'Hello World' while learning basics of python variables. 
+We are going to replicate the legendary programming exercise 'Hello World' while learning basics of python variables. 
 
 
 ## Python File
@@ -21,7 +21,7 @@ print "Hello World"
 
 > Note that for strings (plain text), you need to encompass them with " or ' signs.
 
-*Now try to make the excercise 1*
+*Now try to make the exercise 1*
 
 ## Variable Assignment
 Okay, now think that you would want to save something for usage later in your application. This can be done
@@ -63,7 +63,7 @@ comment
 ```
 
 
-## Excercises
+## Exercises
 ### Make Hello World Application
 Now it is time to combine what you have learned and make your very first application. 
 
